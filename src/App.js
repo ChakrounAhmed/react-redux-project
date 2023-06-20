@@ -68,7 +68,7 @@ function App() {
                 <div>
                   <h2>{el.title}</h2>
 
-                  <Button variant="primary" onClick={handleEdit}>
+                  <Button variant="primary" onClick={() => handleEdit(el.id)}>
                     Edit
                   </Button>
                   <Modal
